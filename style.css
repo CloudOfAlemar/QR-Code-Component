@@ -1,0 +1,78 @@
+
+html {
+  font-family: 'Outfit', sans-serif;
+  font-size: .625rem;
+}
+
+body {
+  margin: 0;
+}
+
+/* ========================================================= */
+/* Groups */
+/* ========================================================= */
+
+/* Border Radius */
+.qr-component,
+.qr-code-img {
+  border-radius: 10px;
+}
+
+/* Box Sizing */
+.main-content,
+.qr-component {
+  box-sizing: border-box;
+}
+
+/* Text Align */
+.component-heading,
+.component-description,
+.attribution {
+  text-align: center;
+}
+
+/* Color */
+.component-heading,
+.attribution {
+  color: hsl(218, 44%, 22%);
+}
+
+/* Font Size */
+.component-description,
+.attribution {
+  font-size: 1.4rem;
+}
+
+/* ========================================================= */
+/* Main Content */
+/* ========================================================= */
+
+.main-content {
+  background-color: hsl(212, 45%, 89%);
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-component {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 270px;
+  padding: 1.5rem;
+  margin-bottom: 100px;
+}
+
+.qr-code-img {
+  width: 100%;
+}
+
+.component-heading {
+  font-size: 2rem;
+}
+
+.component-description {
+  color: hsl(220, 15%, 55%);
+}
